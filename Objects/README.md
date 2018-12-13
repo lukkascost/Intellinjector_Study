@@ -19,6 +19,7 @@ Consiste no Classificador utilizado, seguindo os valores abaixo.
     SVM_SIGMOID : SVM com Kernel Senoidal;
     SVM_POLY : SVM com Kernel Polinomial;
     SVM_RBF : SVM com Kernel RBF;
+    MLP_BACKPROP[{}-...-{}]: MLP com Backpropagation as variaveis sao um array com as camadas.
     
 ## Quarto parâmetro MOLD-{}
 Define o mold a qual os dados pertencem sendo eles:
