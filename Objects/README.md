@@ -26,4 +26,6 @@ Define o mold a qual os dados pertencem sendo eles:
 
     01 - PLACA_MONO_LCD_ID_CAV_2_2
     02 - TRAVA_TERMINAIS_MONO_ID_CAV_4_1
+    03 - BLOCO_MONO_CQ_CAV_4_3
+    04 - BASE_POLI_CQ_CAV_2_3
     
