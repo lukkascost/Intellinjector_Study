@@ -11,6 +11,8 @@ Abaixo a lista com o número correspondente a cada classe.
     01 - Normal
     02 - Falha de Injeção
     03 - Rechupe
+    04 - Gases
+    05 - Rebarba
     
 ## Terceiro Parâmetro {} 
 Consiste no Classificador utilizado, seguindo os valores abaixo.

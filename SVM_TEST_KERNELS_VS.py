@@ -60,10 +60,10 @@ for j in range(50):
     oData.insert_model(svm)
     oDataSet.append(oData)
 oExp.add_data_set(oDataSet, description="  50 execucoes SVM_{} base Injetoras arquivos em INJ_05 e INJ_04 com Normalizacao. ".format(KERNEL))
-oExp.save("Objects/Vs/INJ_05_CL-01-02-03_SVM_{}_MOLD-{:02d}_.gzip".format(KERNEL,MOLD))
+oExp.save("Objects/Vs/INJ_05_CL-01-02-03_SVM_{}_MOLD-{:02d}.gzip".format(KERNEL,MOLD))
 
 
-oExp = oExp.load("Objects/Vs/INJ_05_CL-01-02-03_SVM_{}_MOLD-{:02d}_.gzip".format(KERNEL,MOLD))
+oExp = oExp.load("Objects/Vs/INJ_05_CL-01-02-03_SVM_{}_MOLD-{:02d}.gzip".format(KERNEL,MOLD))
 
 print oExp
 print oExp.experimentResults[0].sum_confusion_matrix/50
